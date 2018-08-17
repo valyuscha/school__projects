@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.main-header{
+    height: 644px;
+}
+
+.main-header__img{
+    width: 1349px;
+}
+
+
+.main-header__name{
+    position: absolute;
+    text-align: center;
+    bottom: 200px;
+    color: #1813eb;
+    font-size: 42px;
+}
+
+.main-content{
+    width: 1349px;
+    height: 2250px;
+    background: #78d1e3;
+}
+
+
+.main-content__img-buttons{
+    background: #78d1e3;
+    margin-left: 500px;
+}
+
+.main-content__img{
+    padding-top: 150px;
+    width: 350px;
+    height: 486px;
+
+}
+
+.main-content__button{
+    margin-top: 40px;
+
+}
+
+.main-content__button-a{
+    border: 3px solid #5d5b66;
+    color: #5d5b66;
+    padding: 10px 109px;
+    text-decoration: none;
+}
+
+.main-content__button-a1:hover{
+    color: #000000;
+    border-color: #ef7f02;
+    background: #ff9218;
+    transition: all .3s;
+}
+
+.main-content__button-a2:hover{
+    color: #000000;
+    border-color: #205e53;
+    background: #457867;
+    transition: all .3s;
+}
+
+.main-content__button-a3:hover{
+    color: #000000;
+    border-color: #014961;
+    background: #206877;
+    transition: all .3s;
+}
+
+.main-footer{
+    background: linear-gradient(to bottom right, #7e1512, #e8e771);
+    min-width: 100%;
+    height: 200px;
+}
+
+.main-footer__i-in-social{
+    color: #1813eb;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.main-footer__social{
+    margin: 0 auto;
+    padding-bottom: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.main-footer__social-item{
+    position: relative;
+    text-align: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 12px;
+    transition: all .3s ease;
+    padding: 8px 4px 0 4px;
+}
+
+.social-links{
+    padding-top: 55px;
+}
+
+.main-footer__social-link{
+    color: #ffffff;
+}
+
+.main-footer__social-item:last-child{
+    margin-right: 0;
+}
+
+.main-footer__social-item:nth-child(1) {
+    background-color: #0000ff;
+    border: 1px solid #0000ff;
+    margin-top: 5px;
+
+}
+
+.main-footer__social-item:nth-child(1):hover{
+    background-color: #00ff00;
+    box-shadow: inset 0 0 1em red, 0 0 1em #7fff00;
+}
+
+.main-footer__social-item:nth-child(2) {
+    background-color: #395999;
+    border: 1px solid #395999;
+    margin-top: 5px;
+
+}
+
+.main-footer__social-item:nth-child(2):hover{
+    background-color: #00ff00;
+    box-shadow: inset 0 0 1em red, 0 0 1em #7fff00;
+}
