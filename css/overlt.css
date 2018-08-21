@@ -74,16 +74,16 @@ body{
 
 .main-content__text1{
     color: lightslategrey;
-    position: absolute;
+    position: relative;
     left: 300px;
-    top: 590px;
+    bottom: 490px;
 }
 
 .main-content__text2{
     color: lightslategrey;
-    position: absolute;
-    left: 750px;
-    top: 590px;
+    position: relative;
+    left: 300px;
+    bottom: 490px;
 }
 
 .main-footer{
