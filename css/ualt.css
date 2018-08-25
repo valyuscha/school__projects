@@ -7,6 +7,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+.container{
+    margin: 0 auto;
+    max-width: 990px;
+}
+
 .main-header{
     background: linear-gradient(to bottom right, #7e1512, #e8e771);
     height: 200px;
@@ -60,33 +66,12 @@ body{
 }
 
 .main-content{
-    background: #78d1e3;
+    background: #78d1e3 url("../images/open-book.png") 25px 0;
+    height: 935px;
 }
 
-.main-content__image{
-    text-align: center;
-    padding: 100px 0;
-}
 
-.open-book{
-    width: 900px;
-}
-
-.main-content__text1{
-    color: lightslategrey;
-    position: relative;
-    left: 300px;
-    bottom: 490px;
-}
-
-.main-content__text2{
-    color: lightslategrey;
-    position: relative;
-    left: 300px;
-    bottom: 490px;
-}
-
-.main-footer{
+.main-footer {
     background: linear-gradient(to bottom right, #7e1512, #e8e771);
     height: 200px;
 }
@@ -157,8 +142,201 @@ body{
 }
 
 
+/*--Планшеты 728-960px--*/
+
+@media screen and (max-width: 1024px) {
+    .container{
+        width: 90%;
+    }
+    .main-header{
+        width: 100%;
+    }
+    .main-content{
+        width: 100%;
+        height: 900px;
+        background: #78d1e3 url("../images/open-book.png") no-repeat -135px center;
+    }
 
 
+    .main-footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container{
+        width: 90%;
+    }
+    .main-header{
+        width: 100%;
+    }
+    .main-content{
+        width: 100%;
+        height: 900px;
+        background: #78d1e3 url("../images/open-book-small.png") no-repeat center center;
+    }
 
 
+    .main-footer{
+        width: 100%;
+    }
+}
 
+
+/*--Мобильные 0-728px--*/
+@media screen and (max-width: 728px) {
+    .container{
+        width: 90%;
+    }
+    .main-header{
+        width: 100%;
+        height: 390px;
+    }
+    .main-header__page-ualt{
+        margin-bottom: 50px;
+    }
+    .main-header__page-main{
+        float: none;
+        padding-top: 40px;
+    }
+    .portrait{
+        position: relative;
+        top: 70px;
+        right: 270px;
+    }
+    .main-content{
+        width: 100%;
+        height: 900px;
+        background: #78d1e3 url("../images/open-book-small.png") no-repeat center center;
+    }
+
+
+    .main-footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .container{
+        width: 90%;
+    }
+    .main-header{
+        width: 100%;
+        height: 390px;
+    }
+    .main-header__page-ualt{
+        margin-bottom: 50px;
+    }
+    .main-header__page-main{
+        float: none;
+        padding-top: 40px;
+    }
+    .portrait{
+        position: relative;
+        top: 70px;
+        right: 270px;
+    }
+    .main-content{
+        width: 100%;
+        height: 900px;
+        background: #78d1e3 url("../images/open-book-small-for-mobiles.png") no-repeat center center;
+    }
+
+
+    .main-footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .container{
+        width: 90%;
+    }
+    .main-header{
+        width: 100%;
+        height: 390px;
+    }
+    .main-header__page-ualt{
+        margin-bottom: 50px;
+    }
+    .main-header__page-main{
+        float: none;
+        padding-top: 40px;
+    }
+    .portrait{
+        position: relative;
+        top: 70px;
+        right: 145px;
+    }
+    .main-content{
+        width: 100%;
+        height: 900px;
+        background: #78d1e3 url("../images/open-book-small-for-mobiles.png") no-repeat center center;
+    }
+
+
+    .main-footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .container{
+        width: 90%;
+    }
+    .main-header{
+        width: 100%;
+        height: 390px;
+    }
+    .main-header__page-ualt{
+        margin-bottom: 50px;
+    }
+    .main-header__page-main{
+        float: none;
+        padding-top: 40px;
+    }
+    .portrait{
+        position: relative;
+        top: 70px;
+        right: 120px;
+    }
+    .main-content{
+        width: 100%;
+        height: 900px;
+        background: #78d1e3 url("../images/open-book-small-for-mobiles.png") no-repeat center center;
+    }
+
+
+    .main-footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-header{
+        height: 430px;
+    }
+    .main-header__page-ualt{
+        margin-bottom: 50px;
+    }
+    .main-header__page-main{
+        float: none;
+        padding-left: 85px;
+        padding-top: 40px;
+    }
+    .portrait{
+        position: relative;
+        top: 70px;
+        right: 90px;
+    }
+    .main-content{
+        width: 100%;
+        height: 900px;
+        background: #78d1e3 url("../images/open-book-small.png") no-repeat -340px center;
+    }
+
+
+    .main-footer{
+        width: 100%;
+    }
+}
