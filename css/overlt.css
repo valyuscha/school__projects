@@ -50,7 +50,7 @@ body{
     color: #1813eb;
 }
 
-.main-header__page-over.lt{
+.main-header__page-over\.lt{
     text-align: center;
     padding-top: 65px;
 }
@@ -192,7 +192,7 @@ body{
         width: 100%;
         height: 390px;
     }
-    .main-header__page-ualt{
+    .main-header__page-over\.lt{
         margin-bottom: 50px;
     }
     .main-header__page-main{
@@ -224,7 +224,7 @@ body{
         width: 100%;
         height: 390px;
     }
-    .main-header__page-ualt{
+    .main-header__page-over\.lt{
         margin-bottom: 50px;
     }
     .main-header__page-main{
@@ -256,7 +256,7 @@ body{
         width: 100%;
         height: 390px;
     }
-    .main-header__page-ualt{
+    .main-header__page-over\.lt{
         margin-bottom: 50px;
     }
     .main-header__page-main{
@@ -288,7 +288,7 @@ body{
         width: 100%;
         height: 390px;
     }
-    .main-header__page-ualt{
+    .main-header__page-over\.lt{
         margin-bottom: 50px;
     }
     .main-header__page-main{
@@ -316,7 +316,7 @@ body{
     .main-header{
         height: 430px;
     }
-    .main-header__page-ualt{
+    .main-header__page-over\.lt{
         margin-bottom: 50px;
     }
     .main-header__page-main{
