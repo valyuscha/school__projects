@@ -10,36 +10,38 @@ body{
 
 .container{
   margin: 0 auto;
-  max-width: 990px;
-  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1200px;
 }
 
 .main-header {
-  height: 644px;
-  width: 1349px;
+  background-image: url(../images/headerBackground.jpg);
+  height: 100vh;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.main-header__img {
-  width: 1349px;
-  }
 
   .main-header__name {
-    position: relative;
     text-align: center;
-    bottom: 525px;
     color: #1813eb;
     font-size: 42px;
   }
 
   .main-content {
-    width: 1349px;
-    height: 2250px;
     background: #78d1e3;
   }
 
   .main-content__img-buttons{
-    padding-left: 33%;
+    margin: 0 auto;
     width: 350px;
+    padding-bottom: 150px;
   }
 
 
@@ -47,47 +49,56 @@ body{
     padding-top: 150px;
     width: 350px;
     height: 486px;
-
   }
 
   .main-content__button {
     margin-top: 40px;
+    text-align: center;
   }
 
 
   .main-content__button-a {
     border: 3px solid #5d5b66;
-    color: #5d5b66;
+    background: #04b5af;
+    color: brown;
     padding: 10px 0;
     display: block;
     text-decoration: none;
+    font-size: 24px;
+  }
+
+  .main-content__button-a:hover{
+    color: #000000;
+    background: linear-gradient(to top, #60606e, #00b3b3, #60606e);
+    transition: all .3s;
   }
 
   .main-content__button-a1:hover {
     color: #000000;
-    border-color: #ef7f02;
-    background: #ff9218;
+    background: linear-gradient(to top, #60606e, #00b3b3, #60606e);
     transition: all .3s;
   }
 
   .main-content__button-a2:hover {
     color: #000000;
-    border-color: #205e53;
-    background: #457867;
+    background: linear-gradient(to top, #60606e, #00b3b3, #60606e);
     transition: all .3s;
   }
 
   .main-content__button-a3:hover {
     color: #000000;
-    border-color: #014961;
-    background: #206877;
+    background: linear-gradient(to top, #60606e, #00b3b3, #60606e);
     transition: all .3s;
   }
 
+.main-content__button-a4:hover {
+  color: #000000;
+  background: linear-gradient(to top, #60606e, #00b3b3, #60606e);
+  transition: all .3s;
+}
+
   .main-footer {
     background: linear-gradient(to bottom right, #7e1512, #e8e771);
-    width: 1349px;
-    height: 200px;
   }
 
   .main-footer__i-in-social {
@@ -95,7 +106,7 @@ body{
     font-size: 20px;
     text-align: center;
     padding-top: 15px;
-
+    padding-bottom: 15px;
   }
 
   .main-footer__social {
@@ -158,214 +169,32 @@ body{
 
 //Планшеты 728-960px
 @media screen and (max-width: 960px){
-  .container{
-    width: 90%;
-  }
-  .main-header{
-    width: 100%;
-    height: 280px;
-  }
+
   .main-header__name{
     font-size: 32px;
-    padding-top: 175px;
-  }
-  .main-header__img{
-    width: 100%;
-  }
-  .main-content{
-    width: 100%;
-    height: 2450px;
-  }
-  .main-content__img-buttons{
-    padding-top: 100px;
-    padding-left: 30%;
-  }
-  .main-footer{
-    width: 100%;
   }
 }
 
 
 //Мобильные 0-728px
 @media screen and (max-width: 728px){
-  .container{
-    width: 90%;
-  }
-  .main-header{
-    width: 100%;
-    height: 180px;
-  }
+
   .main-header__name{
     font-size: 25px;
-    padding-top: 220px;
-  }
-  .main-header__img{
-    width: 100%;
-  }
-  .main-content{
-    width: 100%;
-    height: 2450px;
-  }
-  .main-content__img-buttons{
-    padding-top: 100px;
-    padding-left: 25%;
-  }
-  .main-footer{
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 660px) {
-  .main-header__name{
-    padding-top: 250px;
-  }
-  .main-content__img-buttons{
-    padding-left: 20%;
-  }
-}
-
-@media screen and (max-width: 526px) {
-  .main-header__name{
-    padding-top: 300px;
-    font-size: 18px;
-  }
-  .main-content__img-buttons{
-    padding-left: 15%;
-  }
-}
-
-@media screen and (max-width: 460px) {
-  .main-header__name{
-    padding-top: 340px;
-    font-size: 15px;
-  }
-  .main-content__img-buttons{
-    padding-left: 7%;
   }
 }
 
 @media screen and (max-width: 430px) {
   .main-content__img-buttons{
-    padding-left: 5%;
+    width: 290px;
   }
-}
-
-@media screen and (max-width: 406px) {
-  .container{
-    width: 90%;
-  }
-  .main-header{
-    width: 100%;
-    height: 20px;
-  }
-  .main-header__name{
-    font-size: 15px;
-    padding-top: 350px;
-  }
-  .main-header__img{
-    width: 100%;
-  }
-  .main-content{
-    width: 100%;
-    height: 2050px;
-  }
-  .main-content__img-buttons{
-    padding-top: 100px;
-    //padding-right: -2%;
-    width: 80%;
-  }
-  .main-content__img{
-    width: 100%;
-    height: 400px;
-    margin-left: 20px;
-  }
-  .main-content__button{
-    margin-left: 18px;
-  }
-  .main-content__button-a{
-    padding: 10px 0;
-    display: block;
-    width: 120%;
-  }
-  .main-footer{
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .container{
-    width: 90%;
-  }
-  .main-header{
-    width: 100%;
-    height: 20px;
-  }
-  .main-header__name{
-    font-size: 13px;
-    padding-top: 390px;
-  }
-  .main-header__img{
-    width: 100%;
-  }
-  .main-content{
-    width: 100%;
-    height: 2050px;
-  }
-  .main-content__img-buttons{
-    padding-top: 100px;
-    width: 90%;
-  }
-  .main-content__img{
-    width: 100%;
-    height: 400px;
-    margin-left: 20px;
-  }
-  .main-content__button{
-    //margin-left: 33px;
-  }
-  .main-content__button-a{
-    padding: 10px 0;
-    display: block;
-    width: 105%;
-    margin-left: 3px;
-  }
-  .main-footer{
-    width: 100%;
+  .main-content__img {
+    width: 290px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .main-header{
-    width: 100%;
-    height: 20px;
-  }
   .main-header__name{
-    font-size: 12px;
-    padding-top: 380px;
-  }
-  .main-content{
-    width: 100%;
-    height: 2050px;
-  }
-  .main-content__img-buttons{
-    padding-top: 100px;
-    width: 90%;
-  }
-  .main-content__img{
-    width: 100%;
-    height: 370px;
-    margin-left: 15px;
-  }
-  .main-content__button{
-    padding-right: 30px;
-  }
-  .main-content__button-a{
-    padding: 10px 0;
-    display: block;
-    width: 120%;
-    margin-right: 20px;
-  }
-  .main-content__img-buttons{
-    padding-left: 0;
+    font-size: 20px;
   }
 }
