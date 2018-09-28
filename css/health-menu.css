@@ -1,0 +1,225 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.main-header{
+    background: linear-gradient(to bottom right, blue, red);
+    height: 200px;
+    flex: 38px;
+}
+
+.main-header__page-main{
+    font-size: 17px;
+}
+
+.main-header__page-main-link{
+    padding-top: 70px;
+
+}
+
+.main-header__page-main-link-a{
+    color: lime;
+
+}
+
+.main-header__page-main-link-a:hover{
+    text-decoration: underline;
+}
+
+.main-header__page-main-link-a:link{
+    color: lime;
+}
+
+.main-header__page-health{
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    padding-top: 60px;
+    color: lime;
+}
+
+.main-header__img{
+    text-align: right;
+    padding-top: 30px;
+}
+
+.portrait{
+    width: 200px;
+}
+
+.main-content{
+    background: url("../images/open-book.png");
+    height: 140vh;
+}
+
+.main-list{
+    margin: 0 auto;
+    padding: 350px 0;
+}
+
+.main-list li{
+    font-size: 35px;
+    color: #1813eb;
+}
+
+
+.main-list li a{
+    color: #1813eb;
+}
+
+.main-footer {
+    background: linear-gradient(to bottom right, blue, red);
+    width: 1349px;
+    height: 200px;
+}
+
+.main-footer__i-in-social {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    color: lime;
+}
+
+.main-footer__social {
+    /*margin: 0 auto;*/
+    /*padding-bottom: 25px;*/
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+.main-footer__social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 12px;
+    transition: all .3s ease;
+}
+
+.social-links {
+    padding-top: 55px;
+}
+
+.main-footer__social-link {
+    color: #ffffff;
+}
+
+.main-footer__social-item:last-child {
+    margin-right: 0;
+}
+
+.main-footer__social-item:nth-child(1) {
+    background-color: #0000ff;
+    border: 1px solid #0000ff;
+    margin-top: 5px;
+
+}
+
+.main-footer__social-item:nth-child(1):hover {
+    background-color: #00ff00;
+    box-shadow: inset 0 0 1em red, 0 0 1em #7fff00;
+}
+
+.main-footer__social-item:nth-child(2) {
+    background-color: #395999;
+    border: 1px solid #395999;
+    margin-top: 5px;
+
+}
+
+.main-footer__social-item:nth-child(2):hover {
+    background-color: #00ff00;
+    box-shadow: inset 0 0 1em red, 0 0 1em #7fff00;
+}
+
+
+@media screen and (min-width: 992px){
+    .main-footer{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-header{
+        height: 350px;
+    }
+    .main-header__img{
+        margin: 0 auto;
+        padding-top: 35px;
+    }
+    .main-footer{
+        max-width: 100%;
+    }
+    .main-content{
+        background: rgba(147, 112, 219, .7) url("../images/open-book-small.png") no-repeat 50% 50%;
+    }
+    .main-list{
+        text-align: right;
+        /*margin-top: 60px;*/
+    }
+
+    .main-list li{
+        font-size: 25px;
+        list-style: none;
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+    .main-header{
+        height: 400px;
+    }
+    .main-header__img{
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-header{
+        height: 500px;
+    }
+    .main-content{
+        background: rgba(147, 112, 219, .7) url("../images/open-book-small-for-mobiles.png") no-repeat 50% 50%;
+    }
+    .main-header__page-main-link{
+        text-align: center;
+    }
+    .main-list{
+        text-align: center;
+        padding-top: 300px;
+    }
+
+    @media screen and (max-width: 420px) {
+        .main-list{
+            text-align: center;
+            padding-top: 360px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .main-list{
+            text-align: center;
+            padding-top: 250px;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .main-header__img{
+            text-align: center;
+        }
+        .main-list{
+            text-align: center;
+            margin-top: 60px;
+        }
+    }
+}
