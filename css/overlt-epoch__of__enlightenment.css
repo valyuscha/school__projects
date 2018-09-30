@@ -1,11 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
+    color: brown;
     font-size: 18px;
 }
 
 .main-header{
     background: linear-gradient(to bottom right, blue, red);
     height: 200px;
+    color: lime;
     flex: 38px;
 }
 
@@ -31,12 +33,11 @@ body{
     color: lime;
 }
 
-.main-header__page-health{
+.main-header__page-overlt{
     text-align: center;
     font-size: 33px;
     font-weight: bold;
     padding-top: 60px;
-    color: lime;
 }
 
 .main-header__img{
@@ -45,40 +46,46 @@ body{
 }
 
 .portrait{
-    width: 200px;
+    width: 100px;
 }
 
 .main-content{
-    background: url("../images/open-book.png");
-    height: 140vh;
+    background-color: rgba(147, 112, 219, .7);
 }
-
-.main-list{
+.main-content__img{
     margin: 0 auto;
-    padding: 350px 0;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    width: 700px;
 }
 
-.main-list li{
-    font-size: 35px;
-    color: #1813eb;
+.content{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-
-.main-list li a{
-    color: #1813eb;
+.name{
+    text-align: center;
+    padding-bottom: 20px;
 }
+
+/*.slider__img{*/
+    /*width: 400px;*/
+/*}*/
 
 .main-footer {
+    /*background: linear-gradient(to bottom right, #7e1512, #e8e771);*/
     background: linear-gradient(to bottom right, blue, red);
     width: 1349px;
     height: 200px;
 }
 
 .main-footer__i-in-social {
+    color: lime;
     font-size: 20px;
     text-align: center;
     padding-top: 15px;
-    color: lime;
+
 }
 
 .main-footer__social {
@@ -141,37 +148,27 @@ body{
     box-shadow: inset 0 0 1em red, 0 0 1em #7fff00;
 }
 
-
 @media screen and (min-width: 992px){
     .main-footer{
         max-width: 100%;
     }
+
 }
 
 @media screen and (max-width: 992px) {
     .main-header{
-        height: 350px;
+        height: 360px;
     }
     .main-header__img{
         margin: 0 auto;
-        padding-top: 35px;
+        padding-top: 60px;
+    }
+    .main-content__img{
+        width: 100%;
     }
     .main-footer{
         max-width: 100%;
     }
-    .main-content{
-        background: rgba(147, 112, 219, .7) url("../images/open-book-small.png") no-repeat 50% 50%;
-
-    }
-    .main-list{
-        text-align: right;
-    }
-
-    .main-list li{
-        font-size: 25px;
-        list-style: none;
-    }
-
 }
 
 @media screen and (max-width: 830px) {
@@ -188,37 +185,13 @@ body{
     .main-header{
         height: 500px;
     }
-    .main-content{
-        background: rgba(147, 112, 219, .7) url("../images/open-book-small-for-mobiles.png") no-repeat 50% 50%;
-    }
     .main-header__page-main-link{
         text-align: center;
-    }
-    .main-list{
-        text-align: center;
-    }
-
-    @media screen and (max-width: 420px) {
-        .main-list{
-            text-align: center;
-            padding-top: 360px;
-        }
-    }
-
-    @media screen and (max-width: 320px) {
-        .main-list{
-            text-align: center;
-            padding-top: 250px;
-        }
     }
 
     @media screen and (max-width: 576px) {
         .main-header__img{
             text-align: center;
-        }
-        .main-list{
-            text-align: center;
-            margin-top: 60px;
         }
     }
 }
